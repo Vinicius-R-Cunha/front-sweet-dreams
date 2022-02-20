@@ -36,23 +36,26 @@ The following tools and frameworks were used in the construction of the project:
 
 ## How to run
 
-1. Clone this repository
-2. Clone the back-end repository at https://github.com/kethllen/SweetDreams_back
-3. Follow instructions to run back-end at https://github.com/kethllen/SweetDreams_back
-4. Install front-end dependencies
+### Clone this Repository
 ```bash
-npm i
+$ git clone https://github.com/Vinicius-R-Cunha/front-sweet-dreams.git
 ```
-5.Create an environment variables file in the project root (.env) and configure a variable with the name 'REACT_APP_BACK_URL' that contains the url where the backend will be running, Example:
+### Access the directory where you cloned it
 ```bash
-http:localhost:5000/
+$ cd track-it
 ```
-5. Run the front-end with
+### Install dependencies
 ```bash
-npm start
+$ npm i
 ```
-6. You can optionally build the project running
+### Follow the instructions to run back-end at https://github.com/Vinicius-R-Cunha/back-sweet-dreams
+
+### Create an environment variables file in the project root (.env) and configure a variable with the name 'REACT_APP_BACK_URL' that contains the url where the backend will be running, Example:
 ```bash
-npm run build
+REACT_APP_BACK_URL=http:localhost:5000/
 ```
-7. Finally access http://localhost:3000 on your favorite browser.
+### Run the front-end with
+```bash
+$ npm start
+```
+### This command will open your favorite browser and access http://localhost:3000 by default
