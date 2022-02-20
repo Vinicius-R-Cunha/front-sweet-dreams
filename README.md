@@ -31,7 +31,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://img.shields.io/badge/nodejs%20-%2320232a.svg?&style=for-the-badge&color=blue&logo=javascript&logoColor=%2361DAFB%27'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/express%20-%2320232a.svg?&style=for-the-badge&color=green&logo=express&logoColor=%2361DAFB%27'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/sweetalert2%20-%2320232a.svg?&style=for-the-badge&color=important&logo=sweetalert2&logoColor=%2361DAFB%27'>
-  
+ 
 </p>
 
 ## How to run
