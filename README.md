@@ -27,7 +27,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://img.shields.io/badge/axios%20-%2320232a.svg?&style=for-the-badge&color=informational'>
   <img style='margin: 5px;' src="https://img.shields.io/badge/react-app%20-%2320232a.svg?&style=for-the-badge&color=60ddf9&logo=react&logoColor=%2361DAFB"/>
   <img style='margin: 5px;' src="https://img.shields.io/badge/react_route%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img style='margin: 5px;' src='https://img.shields.io/badge/mongobd%20-%2320232a.svg?&style=for-the-badge&color=yellowgreen&logo=mongodb&logoColor=%2361DAFB%27'>
+  <img style='margin: 5px;' src='https://img.shields.io/badge/mongodb%20-%2320232a.svg?&style=for-the-badge&color=yellowgreen&logo=mongodb&logoColor=%2361DAFB%27'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/nodejs%20-%2320232a.svg?&style=for-the-badge&color=blue&logo=javascript&logoColor=%2361DAFB%27'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/express%20-%2320232a.svg?&style=for-the-badge&color=green&logo=express&logoColor=%2361DAFB%27'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/sweetalert2%20-%2320232a.svg?&style=for-the-badge&color=important&logo=sweetalert2&logoColor=%2361DAFB%27'>
