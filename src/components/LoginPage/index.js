@@ -13,7 +13,6 @@ import {
   Description,
   BtnPri,
   BtnSec,
-  SocialMedia,
   FirstColumn,
   SecondColumn,
   Logo,
@@ -72,7 +71,7 @@ export default function LoginPage() {
   return (
     <Container>
       <Logo>
-        <img src={logo} />
+        <img src={logo} alt="" />
         <h1>SweetDreams</h1>
       </Logo>
       {login === false ? (

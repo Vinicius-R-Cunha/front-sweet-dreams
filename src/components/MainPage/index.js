@@ -18,15 +18,18 @@ export default function MainPage() {
   const [inputValue, setInputValue] = useState("");
   const navigate = useNavigate();
 
-  useEffect(async () => {
-    try {
-      const promise = await axios.get(
-        process.env.REACT_APP_BACK_URL + "products"
-      );
-      setProducts(promise.data);
-    } catch (error) {
-      console.log(error);
+  useEffect(() => {
+    async function renderPage() {
+      try {
+        const promise = await axios.get(
+          process.env.REACT_APP_BACK_URL + "products"
+        );
+        setProducts(promise.data);
+      } catch (error) {
+        console.log(error);
+      }
     }
+    renderPage();
   }, []);
 
   function searchFilter(product) {
@@ -91,7 +94,7 @@ export default function MainPage() {
                 <img src={product.image} alt="" />
                 <p className="name">{product.name}</p>
                 <p className="description">{product.description}</p>
-                <p className="price">R${product.price}</p>
+                <p className="price">R$ {product.price}</p>
                 <button onClick={() => handleSelection(product)}>
                   Adicionar ao Carrinho
                 </button>

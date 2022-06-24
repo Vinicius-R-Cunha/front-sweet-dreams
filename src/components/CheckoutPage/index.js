@@ -7,7 +7,6 @@ import {
   CheckoutForm,
   ProductInfo,
   InputDiv,
-  Input,
   LoadingDiv,
 } from "./style";
 import axios from "axios";

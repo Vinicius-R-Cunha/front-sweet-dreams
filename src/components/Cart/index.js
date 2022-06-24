@@ -20,7 +20,7 @@ import {
 import loading from "../../assets/loading.svg";
 
 export default function Cart() {
-  const { token, name } = useContext(UserContext);
+  const { token } = useContext(UserContext);
   const [cartItems, setCartItems] = useState([]);
   const [render, setRender] = useState(0);
   let total = 0;
@@ -52,7 +52,7 @@ export default function Cart() {
   }
   function updateItem(item, inc) {
     let qtd = 0;
-    if (inc == true) {
+    if (inc === true) {
       qtd = parseInt(item.quantity) + 1;
     } else {
       qtd = parseInt(item.quantity) - 1;
@@ -83,7 +83,7 @@ export default function Cart() {
     });
   }
 
-  cartItems.map((product) => {
+  cartItems.forEach((product) => {
     const aux = product.subtotal.replace(",", ".");
     total += parseFloat(aux);
   });
@@ -107,7 +107,7 @@ export default function Cart() {
               return (
                 <CartDiv key={product.productId}>
                   <CartNome>
-                    <img src={product.image} />
+                    <img src={product.image} alt="" />
                     <h1>{product.name}</h1>
                   </CartNome>
                   <h2>R$ {product.price}</h2>

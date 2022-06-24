@@ -50,7 +50,7 @@ export default function Header({ setInputValue, main }) {
         )}
 
         <Logo>
-          <img src={logo} />
+          <img src={logo} alt="" />
           <h1>SweetDreams</h1>
         </Logo>
         {main && (

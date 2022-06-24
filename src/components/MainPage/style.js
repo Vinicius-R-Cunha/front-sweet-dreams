@@ -11,7 +11,7 @@ const ProductsContainer = styled.div`
 `;
 
 const CentralizedDiv = styled.div`
-  width: 900px;
+  width: 1300px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -30,27 +30,29 @@ const Product = styled.div`
 
   img {
     width: 100%;
-    height: 210px;
+    height: 290px;
 
     object-fit: cover;
+    object-position: center;
 
     margin-bottom: 12px;
   }
 
   .name {
-    font-size: 14px;
+    font-size: 18px;
 
     margin-bottom: 12px;
   }
 
   .description {
-    font-size: 8px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
 
     margin-bottom: 20px;
   }
 
   .price {
-    font-size: 12px;
+    font-size: 18px;
 
     margin-bottom: 8px;
   }
@@ -58,7 +60,7 @@ const Product = styled.div`
   button {
     width: 100%;
 
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     color: #00ced1;
@@ -70,26 +72,25 @@ const Product = styled.div`
     border-radius: 10px;
     border: 2px solid #00ced1;
 
-        cursor: pointer;
+    cursor: pointer;
 
-        :hover {
-            color: #FFFFFF;        
-            background-color: #00ced1;
-            border: 2px solid #FFFFFF;
-        }
+    :hover {
+      color: #ffffff;
+      background-color: #00ced1;
+      border: 2px solid #ffffff;
     }
-`
+  }
+`;
 
 const LoadingDiv = styled.div`
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: lightblue;
-`
+  background-color: lightblue;
+`;
 
-export { ProductsContainer, CentralizedDiv, Product, LoadingDiv }
-
+export { ProductsContainer, CentralizedDiv, Product, LoadingDiv };

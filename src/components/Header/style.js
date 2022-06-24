@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeaderContainer = styled.header`
   width: 100%;
-  height: 60px;
+  height: 70px;
 
   display: flex;
   justify-content: center;
@@ -14,28 +14,35 @@ const HeaderContainer = styled.header`
   top: 0;
   z-index: 1;
 `;
+
 const Logo = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
   h1 {
     font-family: "Lobster", cursive;
-    font-size: 32px;
+    font-size: 39px;
     color: #ffffff;
   }
-  img {
-    width: 30px;
-    height: 30px;
-  }
 `;
+
 const HeaderDiv = styled.div`
-  width: 900px;
+  width: 1300px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   .house-icon {
+    font-size: 40px;
+
     cursor: pointer;
   }
 
@@ -46,19 +53,13 @@ const HeaderDiv = styled.div`
     padding-right: 60px;
   }
 
-  h1 {
-    font-family: "Lobster", cursive;
-    font-size: 32px;
-    color: #ffffff;
-  }
-
   .cart {
     width: 90px;
     height: 30px;
 
     display: flex;
     justify-content: flex-end;
-    
+
     position: relative;
 
     .cart-quantity {
@@ -83,8 +84,8 @@ const HeaderDiv = styled.div`
     }
 
     .cart-icon {
-      width: 25px;
-      height: 25px;
+      width: 35px;
+      height: 35px;
 
       margin-right: 5px;
 
@@ -102,8 +103,8 @@ const SearchDiv = styled.div`
   position: relative;
 
   img {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
 
     position: absolute;
     right: 10px;
@@ -112,14 +113,14 @@ const SearchDiv = styled.div`
 
 const SearchInput = styled.input`
   all: unset;
-  width: 270px;
-  height: 25px;
+  width: 400px;
+  height: 35px;
   background-color: #ffffff;
 
   display: flex;
   justify-content: center;
 
-  font-size: 10px;
+  font-size: 15px;
   text-indent: 15px;
 
   border-radius: 12px;
